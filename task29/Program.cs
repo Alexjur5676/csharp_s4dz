@@ -19,7 +19,7 @@ Console.ReadLine();
     
 // Второй способ:
 
-// void FillArray(int[] array)
+// void ScanArray(int[] array)
 // {
 //     int length = array.Length;
 //     int i = 0;
@@ -46,5 +46,5 @@ Console.ReadLine();
 // int[] array = new int[8];
 // int count = array.Length;
 
-// FillArray(array);
+// ScanArray(array);
 // PrintArray(array);
