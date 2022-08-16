@@ -11,11 +11,11 @@ if (number < 0)
     number = -number;
 }
 int i;
-int sum=0;
-while(number> 0)
+int sum = 0;
+while (number > 0)
 {
-    i=number%10;
-    number=number/10;
+    i = number % 10;
+    number = number / 10;
     sum = sum + i;
 }
 Console.WriteLine(sum);
